@@ -7,7 +7,7 @@ Este é um sistema simples para cadastro de motoristas e veículos, desenvolvido
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/rafaelsatyro/gobrax/tree/main/gobrax
 
 
 2 **Instale as Dependências::**
