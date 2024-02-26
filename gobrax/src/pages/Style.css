@@ -1,0 +1,211 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-button-redirect{
+    display: flex;
+    padding: 0 0 0 2%;
+    gap: 30%;
+}
+.container-button-linkedin{
+    display: flex;
+    padding: 0 2% 0 0;
+}
+.motoristas-e-veiculos{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button-linkedin{
+    height: 40px;
+    background-color: #021691;
+    color: white;
+    width: 120px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.container-selected-driver{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5% 0 0;
+}
+.title-selected-driver{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.p-driver-informations{
+    margin: 5px 0 0 0;
+}
+.title-selected-vehicle{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+.empty-search-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-table-drivers{
+    display: flex;
+    padding: 2% 2% 0 2%;
+}
+.table-drivers{
+    border-right: 0.2px solid #d3d3d3;
+    border-bottom: 0.2px solid #d3d3d3;
+    border-left: 0.2px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+}
+.table-row{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #d3d3d3;
+    height: 60px;
+    align-items: center;
+}
+.driver-informations-table-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    text-align: center;
+}
+.title-th{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+}
+.input-selected-driver{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.td-informations-driver{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+}
+.title-driver-form{
+    font-size: 25px;
+    padding: 0 0 2% 0;
+}
+
+/* Estilizacão da página DriverPage */
+
+.container-form {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.header-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.title-driver-form {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.drivers-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+  
+.driver-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.driver-info {
+    margin: 5px 0;
+    font-size: 16px;
+}
+  
+.driver-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+  
+.driver-actions button {
+    margin-left: 5px;
+}
+.button-editar{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 5%;
+    height: 40px;
+}
+.button-excluir{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 5%;
+    height: 40px;
+}
+.button-home-page{
+    text-decoration: none;
+    background-color: #d9d9d9;
+    height: 40px;
+    border: 1px solid black;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+    margin: 0 0 2% 0;
+}
+
+ 
+  .button-home-page:hover {
+    background-color: #ffff00; 
+    color:black ;
+  }
+  
