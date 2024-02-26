@@ -1,0 +1,54 @@
+.container-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2% 0 2%;
+}
+.header-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.driver-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .driver-form form {
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  .driver-form input[type="text"],
+  .driver-form select {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  .driver-form button[type="submit"] {
+    padding: 10px 20px; 
+    background-color: #ffff00;
+    color: black; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 1s; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+ 
+  .driver-form button[type="submit"]:hover {
+    background-color: black; 
+    color: #ffff00;; 
+  }
+  
